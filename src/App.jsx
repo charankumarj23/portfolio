@@ -40,22 +40,30 @@ export default function Portfolio() {
         </p>
 
         <div className="flex justify-center gap-5 mt-10 flex-wrap">
-          <a
-            href="https://github.com/charankumarj23"
-            target="_blank"
-            className="bg-white text-black px-6 py-3 rounded-xl font-medium"
-          >
-            GitHub
-          </a>
+  <a
+    href="https://github.com/charankumarj23"
+    target="_blank"
+    className="bg-white text-black px-6 py-3 rounded-xl font-medium"
+  >
+    GitHub
+  </a>
 
-          <a
-            href="https://www.linkedin.com/in/charankumarj231005"
-            target="_blank"
-            className="border border-gray-600 px-6 py-3 rounded-xl"
-          >
-            LinkedIn
-          </a>
-        </div>
+  <a
+    href="https://www.linkedin.com/in/charankumarj231005"
+    target="_blank"
+    className="border border-gray-600 px-6 py-3 rounded-xl"
+  >
+    LinkedIn
+  </a>
+
+  <a
+    href="/resume.pdf"
+    target="_blank"
+    className="border border-gray-600 px-6 py-3 rounded-xl hover:bg-white hover:text-black transition"
+  >
+    Resume
+  </a>
+</div>
       </section>
 
       {/* ABOUT */}
