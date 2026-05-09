@@ -1,14 +1,43 @@
 export default function Portfolio() {
-  const skills = [
-    "C",
-    "Java",
-    "Python",
-    "HTML",
-    "CSS",
-    "React.js",
-    "DBMS",
-    "Git",
-  ];
+
+  const skillCategories = [
+  {
+    title: "Programming Languages",
+    skills: [
+      "C (Basics)",
+      "C++ (Basics)",
+      "Java (Intermediate)",
+      "Python (Intermediate)",
+    ],
+  },
+  {
+    title: "Web Technologies",
+    skills: [
+      "HTML",
+      "CSS",
+      "React.js",
+      "Responsive Web Design",
+    ],
+  },
+  {
+    title: "Tools & Platforms",
+    skills: [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Figma",
+      "Android Studio",
+    ],
+  },
+  {
+    title: "Core Concepts",
+    skills: [
+      "OOP",
+      "Basics of Data Structures",
+      "DBMS",
+    ],
+  },
+];
 
   const projects = [
     {
@@ -29,6 +58,7 @@ export default function Portfolio() {
 
       {/* HERO SECTION */}
       <section className="text-center py-24 px-6 border-b border-gray-800">
+
         <h1 className="text-5xl md:text-6xl font-bold mb-6">
           Charan Kumar J
         </h1>
@@ -40,70 +70,98 @@ export default function Portfolio() {
         </p>
 
         <div className="flex justify-center gap-5 mt-10 flex-wrap">
-  <a
-    href="https://github.com/charankumarj23"
-    target="_blank"
-    className="bg-white text-black px-6 py-3 rounded-xl font-medium"
-  >
-    GitHub
-  </a>
 
-  <a
-    href="https://www.linkedin.com/in/charankumarj231005"
-    target="_blank"
-    className="border border-gray-600 px-6 py-3 rounded-xl"
-  >
-    LinkedIn
-  </a>
+          <a
+            href="https://github.com/charankumarj23"
+            target="_blank"
+            className="bg-white text-black px-6 py-3 rounded-xl font-medium"
+          >
+            GitHub
+          </a>
 
-  <a
-    href="/resume.pdf"
-    target="_blank"
-    className="border border-gray-600 px-6 py-3 rounded-xl hover:bg-white hover:text-black transition"
-  >
-    Resume
-  </a>
-</div>
+          <a
+            href="https://www.linkedin.com/in/charankumarj231005"
+            target="_blank"
+            className="border border-gray-600 px-6 py-3 rounded-xl"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            className="border border-gray-600 px-6 py-3 rounded-xl hover:bg-white hover:text-black transition"
+          >
+            Resume
+          </a>
+
+        </div>
       </section>
 
       {/* ABOUT */}
       <section className="max-w-5xl mx-auto px-6 py-20">
+
         <h2 className="text-3xl font-bold mb-8">
           About Me
         </h2>
 
         <p className="text-gray-300 leading-8 text-lg">
           I am an Integrated M.Tech Computer Science student passionate about
-  software development, web technologies, and problem solving. I enjoy
-  building practical applications and continuously improving my technical
-  skills through projects, internships, and hands-on learning.
-  
-  I am particularly interested in Full Stack Development, UI/UX Design,
-  and beginner-level Machine Learning concepts. I am eager to contribute,
-  learn from real-world development environments, and grow as a software engineer.
+          software development, web technologies, and problem solving.
+          I enjoy building practical applications and continuously improving
+          my technical skills through projects, internships, and hands-on learning.
+
+          <br /><br />
+
+          I am particularly interested in Full Stack Development, UI/UX Design,
+          and beginner-level Machine Learning concepts. I am eager to contribute,
+          learn from real-world development environments, and grow as a software engineer.
         </p>
+
       </section>
 
       {/* SKILLS */}
       <section className="max-w-5xl mx-auto px-6 py-10">
+
         <h2 className="text-3xl font-bold mb-10">
           Technical Skills
         </h2>
 
-        <div className="flex flex-wrap gap-4">
-          {skills.map((skill) => (
+        <div className="grid md:grid-cols-3 gap-6">
+
+          {skillCategories.map((category, index) => (
             <div
-              key={skill}
-              className="bg-gray-900 border border-gray-700 px-5 py-3 rounded-xl"
+              key={index}
+              className="bg-gray-900 border border-gray-800 rounded-2xl p-6"
             >
-              {skill}
+
+              <h3 className="text-xl font-semibold mb-5">
+                {category.title}
+              </h3>
+
+              <div className="flex flex-wrap gap-3">
+
+                {category.skills.map((skill) => (
+                  <span
+                    key={skill}
+                    className="border border-gray-700 px-4 py-2 rounded-xl text-gray-300 hover:bg-white hover:text-black transition"
+                  >
+                    {skill}
+                  </span>
+                ))}
+
+              </div>
+
             </div>
           ))}
+
         </div>
+
       </section>
 
       {/* INTERNSHIPS */}
       <section className="max-w-5xl mx-auto px-6 py-20">
+
         <h2 className="text-3xl font-bold mb-10">
           Internships
         </h2>
@@ -111,6 +169,7 @@ export default function Portfolio() {
         <div className="space-y-8">
 
           <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+
             <h3 className="text-2xl font-semibold">
               Web Development Intern
             </h3>
@@ -124,9 +183,11 @@ export default function Portfolio() {
               CSS, and JavaScript. Worked on improving simple UI layouts
               and understanding development workflows.
             </p>
+
           </div>
 
           <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+
             <h3 className="text-2xl font-semibold">
               UI / UX Intern
             </h3>
@@ -139,13 +200,16 @@ export default function Portfolio() {
               Learned basics of UI/UX design using Figma and worked on
               simple dashboard designs and interactive prototypes.
             </p>
+
           </div>
 
         </div>
+
       </section>
 
       {/* PROJECTS */}
       <section className="max-w-6xl mx-auto px-6 py-20">
+
         <h2 className="text-3xl font-bold mb-10">
           Projects
         </h2>
@@ -157,6 +221,7 @@ export default function Portfolio() {
               key={index}
               className="bg-gray-900 border border-gray-800 rounded-2xl p-8"
             >
+
               <p className="text-gray-400 text-sm mb-3">
                 {project.tech}
               </p>
@@ -178,14 +243,17 @@ export default function Portfolio() {
                   View GitHub
                 </a>
               )}
+
             </div>
           ))}
 
         </div>
+
       </section>
 
       {/* CONTACT */}
       <section className="text-center py-20 border-t border-gray-800 px-6">
+
         <h2 className="text-3xl font-bold mb-6">
           Contact
         </h2>
@@ -195,6 +263,7 @@ export default function Portfolio() {
           <p>📧 charankumarj23@gmail.com</p>
           <p>📱 9363667351</p>
         </div>
+
       </section>
 
     </div>
