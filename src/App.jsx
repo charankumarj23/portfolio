@@ -65,11 +65,14 @@ export default function Portfolio() {
         </h2>
 
         <p className="text-gray-300 leading-8 text-lg">
-          I am currently pursuing Integrated M.Tech Computer Science Engineering.
-          I enjoy learning programming, web development, and building practical
-          applications. I have completed short-term internships in Web Development
-          and UI/UX Design, where I learned basics of responsive web pages,
-          dashboards, and user interface design.
+          I am an Integrated M.Tech Computer Science student passionate about
+  software development, web technologies, and problem solving. I enjoy
+  building practical applications and continuously improving my technical
+  skills through projects, internships, and hands-on learning.
+  
+  I am particularly interested in Full Stack Development, UI/UX Design,
+  and beginner-level Machine Learning concepts. I am eager to contribute,
+  learn from real-world development environments, and grow as a software engineer.
         </p>
       </section>
 
@@ -181,7 +184,7 @@ export default function Portfolio() {
 
         <div className="space-y-3 text-gray-300 text-lg">
           <p>📍 Salem, Tamil Nadu</p>
-          <p>📧 djcharankumar2305@gmail.com</p>
+          <p>📧 charankumarj23@gmail.com</p>
           <p>📱 9363667351</p>
         </div>
       </section>
