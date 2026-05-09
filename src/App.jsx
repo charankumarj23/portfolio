@@ -239,7 +239,7 @@ export default function Portfolio() {
   href={project.github}
   target="_blank"
   rel="noreferrer"
-  className="bg-white text-black px-5 py-3 rounded-xl font-medium hover:bg-gray-200 transition focus:outline-none"
+  className="bg-white text-black px-5 py-3 rounded-xl font-medium hover:bg-gray-200 transition outline-none focus:outline-none active:outline-none"
 >
   View GitHub
 </a>
