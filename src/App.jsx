@@ -236,12 +236,13 @@ export default function Portfolio() {
 
               {project.github && (
                 <a
-                  href={project.github}
-                  target="_blank"
-                  className="bg-white text-black px-5 py-3 rounded-xl font-medium"
-                >
-                  View GitHub
-                </a>
+  href={project.github}
+  target="_blank"
+  rel="noreferrer"
+  className="bg-white text-black px-5 py-3 rounded-xl font-medium hover:bg-gray-200 transition focus:outline-none"
+>
+  View GitHub
+</a>
               )}
 
             </div>
