@@ -44,7 +44,7 @@ export default function Portfolio() {
       title: "Yoga Posture Detection ML Based",
       tech: "Python • OpenCV • TensorFlow",
       desc: "Developed a basic yoga posture detection system using computer vision and machine learning concepts.",
-      github: "https://github.com/charankumarj23/yoga-pose-detection",
+      github: "https://github.com/charankumarj23/yoga-posture-detection",
     },
     {
       title: "Water Supply Notification System",
