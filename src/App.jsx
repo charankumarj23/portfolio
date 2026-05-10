@@ -4,10 +4,10 @@ export default function Portfolio() {
   {
     title: "Programming Languages",
     skills: [
-      "C (Basics)",
+      "C (Intermediate)",
       "C++ (Basics)",
-      "Java (Intermediate)",
-      "Python (Intermediate)",
+      "Java (Basics)",
+      "Python (Basics)",
     ],
   },
   {
