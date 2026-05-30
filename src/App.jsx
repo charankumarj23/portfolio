@@ -4,10 +4,7 @@ export default function Portfolio() {
   {
     title: "Programming Languages",
     skills: [
-      "C (Intermediate)",
-      "C++ (Basics)",
-      "Java (Basics)",
-      "Python (Basics)",
+      "C & Python (Basics)",
     ],
   },
   {
@@ -16,7 +13,6 @@ export default function Portfolio() {
       "HTML",
       "CSS",
       "React.js",
-      "Responsive Web Design",
     ],
   },
   {
@@ -34,24 +30,28 @@ export default function Portfolio() {
     skills: [
       "OOP",
       "Basics of Data Structures",
-      "DBMS",
     ],
   },
 ];
 
   const projects = [
-    {
-      title: "Yoga Posture Detection ML Based",
-      tech: "Python • OpenCV • TensorFlow",
-      desc: "Developed a basic yoga posture detection system using computer vision and machine learning concepts.",
-      github: "https://github.com/charankumarj23/yoga-posture-detection",
-    },
-    {
-      title: "Water Supply Notification System",
-      tech: "React.js • Node.js • MongoDB",
-      desc: "Created a web application for water supply updates with simple Admin and User dashboards.",
-    },
-  ];
+  {
+    title: "Yoga Posture Detection ML Based",
+    tech: "Python • OpenCV • TensorFlow",
+    desc: "Developed a basic yoga posture detection system using computer vision and machine learning concepts.",
+    github: "https://github.com/charankumarj23/yoga-posture-detection",
+  },
+  {
+    title: "Water Supply Notification System",
+    tech: "React.js • Node.js • MongoDB",
+    desc: "Created a web application for water supply updates with simple Admin and User dashboards.",
+  },
+  {
+    title: "Smart Bus Tracking & Notification System",
+    tech: "React.js • Node.js • MongoDB",
+    desc: "Developed a web-based application for managing bus routes, schedules, and student notifications through simple Admin and User dashboards.",
+  },
+];
 
   return (
     <div className="min-h-screen bg-gray-950 text-white">
