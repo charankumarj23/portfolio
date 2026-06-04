@@ -4,14 +4,17 @@ export default function Portfolio() {
   {
     title: "Programming Languages",
     skills: [
-      "C & Python (Basics)",
+      "C",
+      "Python",
+      "Java",
+      "JavaScript",
     ],
   },
   {
     title: "Web Technologies",
     skills: [
-      "HTML",
-      "CSS",
+      "HTML5",
+      "CSS3",
       "React.js",
     ],
   },
@@ -27,9 +30,11 @@ export default function Portfolio() {
   },
   {
     title: "Core Concepts",
-    skills: [
+    skills: [npx vercel --prod
+      "Machine Learning Basics",
+      "Data Science Fundamentals",
       "OOP",
-      "Basics of Data Structures",
+      "Data Structures",
     ],
   },
 ];
@@ -64,9 +69,7 @@ export default function Portfolio() {
         </h1>
 
         <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-8">
-          Computer Science student interested in software development,
-          web technologies, and learning modern programming concepts
-          through projects and internships.
+          Aspiring Software Engineer interested in Artificial Intelligence, Full Stack Development, Machine Learning, and Data Science. Building practical solutions through projects, internships, and continuous learning.
         </p>
 
         <div className="flex justify-center gap-5 mt-10 flex-wrap">
