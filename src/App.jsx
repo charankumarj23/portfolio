@@ -30,12 +30,13 @@ export default function Portfolio() {
   },
   {
     title: "Core Concepts",
-    skills: [npx vercel --prod
-      "Machine Learning Basics",
-      "Data Science Fundamentals",
-      "OOP",
-      "Data Structures",
-    ],
+  skills: [
+  "React",
+  "JavaScript",
+  "MongoDB",
+  "Machine Learning",
+  "Data Science"
+],
   },
 ];
 
@@ -68,9 +69,9 @@ export default function Portfolio() {
           Charan Kumar J
         </h1>
 
-        <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-8">
-          Aspiring Software Engineer interested in Artificial Intelligence, Full Stack Development, Machine Learning, and Data Science. Building practical solutions through projects, internships, and continuous learning.
-        </p>
+       <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-8">
+  Aspiring Software Engineer interested in Artificial Intelligence, Full Stack Development, Machine Learning, and Data Science. Building practical solutions through projects, internships, and continuous learning.
+</p>
 
         <div className="flex justify-center gap-5 mt-10 flex-wrap">
 
@@ -109,18 +110,17 @@ export default function Portfolio() {
         </h2>
 
         <p className="text-gray-300 leading-8 text-lg">
-          I am an Integrated M.Tech Computer Science student passionate about
-          software development, web technologies, and problem solving.
-          I enjoy building practical applications and continuously improving
-          my technical skills through projects, internships, and hands-on learning.
+  I am an Integrated M.Tech Computer Science student passionate about
+  Artificial Intelligence, Software Development, Full Stack Development,
+  and Data Science. I enjoy building practical applications and continuously
+  improving my technical skills through projects, internships, and hands-on learning.
 
-          <br /><br />
+  <br /><br />
 
-          I am particularly interested in Full Stack Development, UI/UX Design,
-          and beginner-level Machine Learning concepts. I am eager to contribute,
-          learn from real-world development environments, and grow as a software engineer.
-        </p>
-
+  I am particularly interested in Machine Learning, Full Stack Development (MERN),
+  Web Technologies, and innovative software solutions. I am eager to contribute,
+  learn from real-world development environments, and grow as a software engineer.
+</p>
       </section>
 
       {/* SKILLS */}
